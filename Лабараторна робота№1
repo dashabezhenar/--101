@@ -10,21 +10,21 @@ int main() {
   scanf("%d", &b );
   printf("Введіть число c:");
   scanf("%d", &c );  
-  
-  
 
-  
+
+
+int temp = a;
     // Змінюєм B у A
      a = b;
     // Міняєм C у B
      b = c;
     // Міняєм А у C
-     c = a;
+     c = temp;
 
    printf("Нові значення: a = %d, b = %d, c = %d\n", a, b, c);
 
 
-      
+
 
     return 0;
 }
