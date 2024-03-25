@@ -16,6 +16,5 @@ int main() {
   y = (double) (a+b*c/2*a-b-c) + (a/b+2) ;
   printf ("y = %f", y) ;
 
-
     return 0;
 }
