@@ -14,7 +14,7 @@ int main() {
 
 
  t = (double) (1+z) * (x+(y/z)) / (x-(1 + pow(x,2))) ;
-  printf ("t = %f", t) ;
+  printf ("t = %.2f", t) ;
 
     return 0;
 }
