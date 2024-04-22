@@ -18,9 +18,11 @@ int main(){
     scanf("%d", &y);
 
     if (y <= x) {
+    
 
         printf("y має бути більше x\n");
-
+    } else if (sqrt(y) - 2 * sqrt(x * z) == 0) { 
+            printf("Неможливо обрахувати a, так як знаменник дорівнює нулю\n");
     } else if (y > x) {
 
         a = (sqrt(x)+2*sqrt(y*z))/(sqrt(y)-2*sqrt(x*z));
